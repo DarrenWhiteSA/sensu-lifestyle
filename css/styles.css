@@ -57,6 +57,7 @@
   display: none;
 
   position: absolute;
+  top: 60px;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -1252,6 +1253,23 @@ a.button-grey-collections:hover {
 .button_cont_collections {
  /* position: relative; */
  /* top: 30px; */
+}
+
+@media only screen and (max-width: 950px) {
+  .shop-category {
+    display: none;
+  }
+
+  .shop-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .shop-products-grid {
+    grid-column: 1/-1;
+  }
 }
 
 /* ---------------------------------------------------------- */
