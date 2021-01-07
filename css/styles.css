@@ -1178,11 +1178,12 @@ img.hover-shadow {
 /* Collections Home Page */
 /* ---------------------------------------------------------- */
 .grid_collections_home {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-flow: wrap;
   margin-top: 100px;
   margin-bottom: 100px;
-
+  align-self: center;
+  justify-content: center;
 }
 
 .grid_collections_home a {
@@ -1224,7 +1225,7 @@ img.hover-shadow {
 }
 
 .img_collections_home {
-  width: 100%;
+  width: 400px;
 }
 
 .card_collections_home h5,.card_collections_home h2  {
