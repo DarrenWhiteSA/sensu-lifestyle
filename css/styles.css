@@ -1890,7 +1890,7 @@ a.button-grey-blog:hover {
   }
 
   .grid-products-h {
-    width: 800px;
+    width: auto;
     text-align: center;
     font-size: 1.7em;
     margin: 0;
