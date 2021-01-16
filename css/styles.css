@@ -109,6 +109,7 @@
   float: left;
   display: block;
   width: 200px;
+  /* height: 44px; */
 
 }
 
@@ -122,8 +123,15 @@
     display: none;
   }
 
+  .myTopnav .topnav {
+    align-content: center;
+  }
+
   #nav-logo {
     display: flex;
+    width: 100px;
+    height: 22px;
+    margin: 0;
   }
 
   /* .topnav a.icon {
@@ -145,9 +153,9 @@
   } */
 
   .topnav img.logo {
-    display: flex;
-    margin-right: auto;
-    width: 200px;
+    /* display: flex; */
+    /* margin-right: auto; */
+    /* width: 100px; */
   }
 
 }
@@ -1557,6 +1565,7 @@ a.button-grey-blog:hover {
 
 .img_blog_post_main {
   width: 300px;
+  height: 300px;
   padding: 5px;
 }
 /* ---------------------------------------------------------- */
