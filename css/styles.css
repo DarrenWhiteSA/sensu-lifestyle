@@ -390,7 +390,7 @@ footer {
   width: 55%;
   margin-right: 1%;
   font-size: calc(6px + 0.5vw);
-  min-height: 27px;
+  min-height: 20px;
   min-width: 80px;
   height: 2.5vw;
 }
@@ -734,6 +734,7 @@ section#design {
   background-color: white;
   border: 1px solid grey;
   width: 40%;
+  min-height: 20px;
   height: 2.58vw;
   font-size: calc(6px + 0.5vw);
 }
