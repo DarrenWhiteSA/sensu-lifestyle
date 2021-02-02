@@ -478,6 +478,30 @@ footer {
   padding-bottom: 30%;
 }
 
+.wspace-bt-sml {
+  padding-bottom: 5%;
+}
+
+.wspace-bt-med {
+  padding-bottom: 15%;
+}
+
+.wspace-bt-lrg {
+  padding-bottom: 25%;
+}
+
+.wspace-top-sml {
+  padding-top: 5%;
+}
+
+.wspace-top-med {
+  padding-top: 15%;
+}
+
+.wspace-top-lrg {
+  padding-top: 25%;
+}
+
 .text-content {
   font-size: calc(12px + .5vw);
   color: black;
