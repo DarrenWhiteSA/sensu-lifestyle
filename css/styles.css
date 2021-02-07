@@ -1667,10 +1667,6 @@ a.button-grey-blog:hover {
  transition: all 0.4s ease 0s;
 }
 
-.button_cont_blog {
- /* position: relative; */
- /* top: 30px; */
-}
 
 /* ---------------------------------------------------------- */
 
@@ -1780,15 +1776,17 @@ a.button-grey-blog:hover {
 .shop-category {
   position: relative;
   left: 30px;
- 
+  border-right: rgb(216, 208, 208) solid 1px;
+  margin-right: 2vw;
 }
 
-.text-category {
-  /* font-family: 'Montserrat'; */
-  font-weight: 10;
+a.text-category {
+
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: grey;
+  margin: 0;
+  padding: 0;
 }
 
 .text-category-heading {
